@@ -17,7 +17,7 @@ body {
     background-image: url(../img/header-bg.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: 0 -80px;
+    background-position: center;
     background-repeat: no-repeat;
     color: #eaeaea;
     overflow: hidden;

@@ -1,0 +1,84 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+* {
+    box-sizing: border-box !important;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin-top: 40px;
+}
+
+.jumbotron {
+    height: 450px;
+    background-image: url(../img/header-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -80px;
+    background-repeat: no-repeat;
+    color: #eaeaea;
+    overflow: hidden;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .judul {
+    font-family: "Bad Script", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.navbar ul li a {
+    color: #fff;
+}
+
+.jumbotron img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #eaeaea;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 50px 0;
+}
+
+section hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+.portfolio {
+    background-color: #eee;
+}
+
+.portfolio .box {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+
+.box img:hover {
+    opacity: .8;
+}
+
+.form-group .form-control {
+    resize: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
